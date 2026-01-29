@@ -1,0 +1,71 @@
+# ===== Node Modules =====
+node_modules/
+npm-debug.log
+yarn-error.log
+.npm
+.eslintcache
+
+# ===== Expo / React Native =====
+.expo/
+.expo-shared/
+dist/
+build/
+web-build/
+expo-env.d.ts
+.env.local
+
+# ===== Dependencies =====
+package-lock.json
+yarn.lock
+
+# ===== IDE =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# ===== Environment Variables =====
+.env
+.env.production
+.env.development
+.env.local
+.env.*.local
+
+# ===== Build & Logs =====
+*.log
+logs/
+.metro-health-check*
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# ===== Testing =====
+coverage/
+.nyc_output/
+
+# ===== TypeScript =====
+*.tsbuildinfo
+dist/
+build/
+
+# ===== Native Builds =====
+/ios
+/android
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# ===== Temporary Files =====
+.tmp/
+temp/
+*.bak
+
+# ===== Git Submodules =====
+.gitmodules

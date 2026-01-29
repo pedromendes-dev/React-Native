@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "chef-ia",
+    "slug": "chef-ia",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1a1a1a"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTabletMode": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#1a1a1a"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "react-native-dotenv",
+        {
+          "moduleName": "@env",
+          "path": ".env",
+          "blacklist": null,
+          "whitelist": null,
+          "safe": false,
+          "allowUndefined": true
+        }
+      ]
+    ]
+  }
+}
